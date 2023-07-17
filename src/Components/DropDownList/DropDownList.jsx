@@ -26,7 +26,7 @@ export const DropDownList = ({ data, onChange }) => {
         <>
         <h3 style={{ marginBottom: '0px' }}>{language}</h3>
         <header>
-            <select onChange={handleSelectionChange} defaultValue="">
+            <select onChange={handleSelectionChange} defaultValue="" style={{ width: '200%' }}>
                 <option value="" disabled>Select an option...</option>
                 {data.map((item) => 
                     <option key={item.name} value={item.name}>{item.name}</option>
