@@ -31,7 +31,7 @@ function App() {
       <LanguageProvider> 
       <LocationContext.Provider value={{ location, setLocation }}> 
         <Routes>
-          <Route path="/" element={<Home />} /> 
+          <Route path="/weather-wiki" element={<Home />} /> 
           <Route path="/Europa" element={<Europa />} />
           <Route path="/Deutschland" element={<Deutschland />} /> 
           <Route path="/Muenchen" element={<Muenchen />} /> 
@@ -75,6 +75,7 @@ function App() {
           <Route path="/Nursultan" element={<Nursultan />} />
           <Route path="/Shymkent" element={<Shymkent />} />
           <Route path="/Almaty" element={<Almaty />} />
+          
           </Routes>
         </LocationContext.Provider>
       </LanguageProvider>
