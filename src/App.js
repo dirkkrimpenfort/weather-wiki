@@ -26,55 +26,56 @@ function App() {
 
   return (
     
-    <BrowserRouter>
+    
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
     <h1>Weather-Wiki</h1>
       <LanguageProvider> 
       <LocationContext.Provider value={{ location, setLocation }}> 
         <Routes>
-          <Route path="/weather-wiki" element={<Home />} /> 
-          <Route path="/weather-wiki/Europa" element={<Europa />} />
-          <Route path="/weather-wiki/Deutschland" element={<Deutschland />} /> 
-          <Route path="/weather-wiki/Muenchen" element={<Muenchen />} /> 
-          <Route path="/weather-wiki/Hamburg" element={<Hamburg />} />
-          <Route path="/weather-wiki/Berlin" element={<Berlin />} />
-          <Route path="/weather-wiki/England" element={<England />} />
-          <Route path="/weather-wiki/London" element={<London />} />
-          <Route path="/weather-wiki/Birmingham" element={<Birmingham />} />
-          <Route path="/weather-wiki/Manchester" element={<Manchester />} />
-          <Route path="/weather-wiki/Spanien" element={<Spanien />} />
-          <Route path="/weather-wiki/Madrid" element={<Madrid />} />
-          <Route path="/weather-wiki/Barcelona" element={<Barcelona />} />
-          <Route path="/weather-wiki/Valencia" element={<Valencia />} />
-          <Route path="/weather-wiki/Russland" element={<Russland />} />
-          <Route path="/weather-wiki/Moskau" element={<Moskau />} />
+          <Route path="/" element={<Home />} /> 
+          <Route path="/Europa" element={<Europa />} />
+          <Route path="/Deutschland" element={<Deutschland />} /> 
+          <Route path="/Muenchen" element={<Muenchen />} /> 
+          <Route path="/Hamburg" element={<Hamburg />} />
+          <Route path="/Berlin" element={<Berlin />} />
+          <Route path="/England" element={<England />} />
+          <Route path="/London" element={<London />} />
+          <Route path="/Birmingham" element={<Birmingham />} />
+          <Route path="/Manchester" element={<Manchester />} />
+          <Route path="/Spanien" element={<Spanien />} />
+          <Route path="/Madrid" element={<Madrid />} />
+          <Route path="/Barcelona" element={<Barcelona />} />
+          <Route path="/Valencia" element={<Valencia />} />
+          <Route path="/Russland" element={<Russland />} />
+          <Route path="/Moskau" element={<Moskau />} />
           <Route path="/SanktPetersburg" element={<SanktPetersburg />} />
           <Route path="/NischniNowgorod" element={<NischniNowgorod />} />
-          <Route path="/weather-wiki/Asien" element={<Asien />} />
-          <Route path="/weather-wiki/China" element={<China />} />
-          <Route path="/weather-wiki/Nordamerika" element={<Nordamerika />} />
-          <Route path="/weather-wiki/USA" element={<USA />} />
-          <Route path="/weather-wiki/Kanada" element={<Kanada />} />
-          <Route path="/weather-wiki/NewYork" element={<NewYork />} />
-          <Route path="/weather-wiki/LosAngeles" element={<LosAngeles />} />
-          <Route path="/weather-wiki/Chicago" element={<Chicago />} />
-          <Route path="/weather-wiki/Toronto" element={<Toronto />} />
-          <Route path="/weather-wiki/Montreal" element={<Montreal />} />
-          <Route path="/weather-wiki/Vancouver" element={<Vancouver />} />
-          <Route path="/weather-wiki/Peking" element={<Peking />} />
-          <Route path="/weather-wiki/Shanghai" element={<Shanghai />} />
-          <Route path="/weather-wiki/Guangzhou" element={<Guangzhou />} />
-          <Route path="/weather-wiki/Japan" element={<Japan />} /> 
-          <Route path="/weather-wiki/Tokio" element={<Tokio />} />
-          <Route path="/weather-wiki/Osaka" element={<Osaka />} />
-          <Route path="/weather-wiki/Yokohama" element={<Yokohama />} />
-          <Route path="/weather-wiki/Indien" element={<Indien />} />
-          <Route path="/weather-wiki/Delhi" element={<Delhi />} />
-          <Route path="/weather-wiki/Mumbai" element={<Mumbai />} />
-          <Route path="/weather-wiki/Kolkata" element={<Kolkata />} />
-          <Route path="/weather-wiki/Kasachstan" element={<Kasachstan />} />
-          <Route path="/weather-wiki/Nursultan" element={<Nursultan />} />
-          <Route path="/weather-wiki/Shymkent" element={<Shymkent />} />
-          <Route path="/weather-wiki/Almaty" element={<Almaty />} />
+          <Route path="/Asien" element={<Asien />} />
+          <Route path="/China" element={<China />} />
+          <Route path="/Nordamerika" element={<Nordamerika />} />
+          <Route path="/USA" element={<USA />} />
+          <Route path="/Kanada" element={<Kanada />} />
+          <Route path="/NewYork" element={<NewYork />} />
+          <Route path="/LosAngeles" element={<LosAngeles />} />
+          <Route path="/Chicago" element={<Chicago />} />
+          <Route path="/Toronto" element={<Toronto />} />
+          <Route path="/Montreal" element={<Montreal />} />
+          <Route path="/Vancouver" element={<Vancouver />} />
+          <Route path="/Peking" element={<Peking />} />
+          <Route path="/Shanghai" element={<Shanghai />} />
+          <Route path="/Guangzhou" element={<Guangzhou />} />
+          <Route path="/Japan" element={<Japan />} /> 
+          <Route path="/Tokio" element={<Tokio />} />
+          <Route path="/Osaka" element={<Osaka />} />
+          <Route path="/Yokohama" element={<Yokohama />} />
+          <Route path="/Indien" element={<Indien />} />
+          <Route path="/Delhi" element={<Delhi />} />
+          <Route path="/Mumbai" element={<Mumbai />} />
+          <Route path="/Kolkata" element={<Kolkata />} />
+          <Route path="/Kasachstan" element={<Kasachstan />} />
+          <Route path="/Nursultan" element={<Nursultan />} />
+          <Route path="/Shymkent" element={<Shymkent />} />
+          <Route path="/Almaty" element={<Almaty />} />
           
           </Routes>
         </LocationContext.Provider>
