@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/weather-wiki/static/css/main.88d3fa4e.css",
-    "main.js": "/weather-wiki/static/js/main.0979868e.js",
+    "main.js": "/weather-wiki/static/js/main.56f88b67.js",
     "index.html": "/weather-wiki/index.html",
     "main.88d3fa4e.css.map": "/weather-wiki/static/css/main.88d3fa4e.css.map",
-    "main.0979868e.js.map": "/weather-wiki/static/js/main.0979868e.js.map"
+    "main.56f88b67.js.map": "/weather-wiki/static/js/main.56f88b67.js.map"
   },
   "entrypoints": [
     "static/css/main.88d3fa4e.css",
-    "static/js/main.0979868e.js"
+    "static/js/main.56f88b67.js"
   ]
 }
