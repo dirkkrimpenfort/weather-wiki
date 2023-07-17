@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/weather-wiki/static/css/main.88d3fa4e.css",
+    "main.js": "/weather-wiki/static/js/main.dacedf38.js",
+    "index.html": "/weather-wiki/index.html",
+    "main.88d3fa4e.css.map": "/weather-wiki/static/css/main.88d3fa4e.css.map",
+    "main.dacedf38.js.map": "/weather-wiki/static/js/main.dacedf38.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88d3fa4e.css",
+    "static/js/main.dacedf38.js"
+  ]
+}
