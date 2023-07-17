@@ -1,6 +1,6 @@
 {
   "name": "weather-wiki",
-  "homepage": "https://dirkkrimpenfort.github.io/",
+  "homepage": "https://dirkkrimpenfort.github.io/weather-wiki",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
