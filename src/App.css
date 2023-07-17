@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(37, 57, 88);
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+h1 {
+    color: rgb(212, 205, 220);
+   
+    font-size: 3rem;
+    margin-top: 50px;
+}
+h3 {
+    color: rgb(212, 205, 220);
+   
+    font-size: 2rem;
+    margin-top: 50px;
+}
+
+header {
+    width: 32%;
+}
+  
+select {
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    background-color: gray;
+    color:whitesmoke;
+    height: auto;
+    font-size: 1rem;
+    margin-top: 0px;
+    justify-content: space-between;
+}
+ 
